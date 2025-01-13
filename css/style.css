@@ -3,3 +3,51 @@
     border: 0;
     box-sizing: border-box;
 }
+
+/* regole generali */
+body {
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 10px;
+    font-weight: bold;
+    background-image: url("../img/train.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* regole main */
+main {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(148, 151, 148);
+    text-align: center;
+}
+
+form {
+    background-color: rgba(207, 228, 236, 0.5);
+    padding: 20px;
+    border-radius: 9999px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 12px;
+    background-color:rgb(103, 166, 187);
+    border-radius: 99999px;
+}
+
+button:hover {
+    background-color: lightblue;
+}
+
+#output {
+    font-size: 14px;
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+

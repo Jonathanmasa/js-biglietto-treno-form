@@ -9,9 +9,10 @@
 </head>
 <body>
     <!-- intestazione -->
-    <h1>Biglietto del treno</h1>
+    <header><h1>Biglietto del treno</h1></header>
 
-    <!-- form biglietto treno -->
+    <main>
+        <!-- form biglietto treno -->
     <form id="train-form">
         <div>Chilometri da percorrere</div>
         <input type="number" id="kilometers" placeholder="Inserire i chilometri" required>
@@ -19,6 +20,10 @@
         <input type="number" id="age" placeholder="Inserire l'età" required>
         <div><button type="button" id="calculate">Calcola prezzo</button></div>
     </form>
+    
+    <!-- otput -->
+     <h2 id="output"></h2>
+    </main>
 
    <script type="text/javascript" src="js/script.js"></script> 
 </body>
